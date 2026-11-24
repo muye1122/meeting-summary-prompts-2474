@@ -1,0 +1,138 @@
+{
+  "schema": "ops.meeting.segment_batch/v1",
+  "meeting_metadata": {
+    "title": "2026 Q4 渠道政策沟通会",
+    "type": "内部业务会",
+    "date": "2026-11-10",
+    "roles": [
+      "S1 主持人/渠道负责人 陈远",
+      "S2 产品负责人 林岚",
+      "S3 运营 周珩",
+      "S4 数据 赵敏"
+    ]
+  },
+  "participant_registry": [
+    { "code": "S1", "name": "陈远", "aliases": ["陈远", "老陈"] },
+    { "code": "S2", "name": "林岚", "aliases": ["林岚", "林工"] },
+    { "code": "S3", "name": "周珩", "aliases": ["周珩", "小周"] },
+    { "code": "S4", "name": "赵敏", "aliases": ["赵敏", "赵老师"] }
+  ],
+  "segments": [
+    {
+      "segment_id": "SEG-001",
+      "key_points": [
+        {
+          "text": "本季度渠道返点总额预算是 50,000 美元，这个数字只是预算口径，不要对外拆分",
+          "segment_ids": ["SEG-001"]
+        }
+      ],
+      "decisions": [],
+      "action_items": [],
+      "resource_leads": [],
+      "open_questions": []
+    },
+    {
+      "segment_id": "SEG-002",
+      "key_points": [],
+      "decisions": [
+        {
+          "text": "新渠道接入流程统一走标准化 API，不再单独定制，这条本周内生效",
+          "segment_ids": ["SEG-002"]
+        }
+      ],
+      "action_items": [],
+      "resource_leads": [],
+      "open_questions": []
+    },
+    {
+      "segment_id": "SEG-003",
+      "key_points": [],
+      "decisions": [],
+      "action_items": [
+        {
+          "task": "整理渠道名单，下周一（2026-11-16）前发给产品",
+          "owner_code": "S3",
+          "due": "2026-11-16",
+          "due_raw": "下周一（2026-11-16）",
+          "evidence_quote": "那我负责整理渠道名单，下周一（2026-11-16）前发给产品",
+          "segment_ids": ["SEG-003"]
+        }
+      ],
+      "resource_leads": [
+        {
+          "direction": "demand",
+          "description": "市场部提供区域划分",
+          "speaker_code": "S3",
+          "evidence_quote": "名单里还需要市场部提供区域划分",
+          "segment_ids": ["SEG-003"]
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "segment_id": "SEG-004",
+      "key_points": [],
+      "decisions": [
+        {
+          "text": "返点结算口径由财务统一",
+          "segment_ids": ["SEG-004"]
+        }
+      ],
+      "action_items": [
+        {
+          "task": "对接返点结算口径",
+          "owner_code": "S2",
+          "due": "TBD",
+          "due_raw": "本周五",
+          "evidence_quote": "返点结算口径由财务统一，林岚本周五前对接完成",
+          "segment_ids": ["SEG-004"]
+        }
+      ],
+      "resource_leads": [],
+      "open_questions": [
+        {
+          "text": "是否需要增加渠道培训？这个问题先留着",
+          "segment_ids": ["SEG-004"]
+        }
+      ]
+    },
+    {
+      "segment_id": "SEG-005",
+      "key_points": [],
+      "decisions": [],
+      "action_items": [
+        {
+          "task": "列出渠道活跃度报表的具体需求",
+          "owner_code": "S3",
+          "due": "TBD",
+          "due_raw": "",
+          "evidence_quote": "周珩如果有具体需求请列出来",
+          "segment_ids": ["SEG-005"]
+        }
+      ],
+      "resource_leads": [
+        {
+          "direction": "supply",
+          "description": "数据侧供给渠道活跃度报表",
+          "speaker_code": "S4",
+          "evidence_quote": "数据侧可以供给渠道活跃度报表",
+          "segment_ids": ["SEG-005"]
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "segment_id": "SEG-006",
+      "key_points": [],
+      "decisions": [
+        {
+          "text": "新渠道接入流程统一走标准化 API，不再单独定制，这条作为结论记录",
+          "segment_ids": ["SEG-006"]
+        }
+      ],
+      "action_items": [],
+      "resource_leads": [],
+      "open_questions": []
+    }
+  ]
+}

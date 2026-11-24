@@ -1,0 +1,124 @@
+{
+  "schema": "ops.meeting.segment_batch/v1",
+  "meeting_metadata": {
+    "title": "社区共建合作碰头会",
+    "type": "外部协作",
+    "date": null,
+    "roles": [
+      "S1 主持 陈远",
+      "S2 社区代表 林岚",
+      "S3 运营 周珩"
+    ]
+  },
+  "participant_registry": [
+    { "code": "S1", "name": "陈远", "aliases": ["陈远", "老陈"] },
+    { "code": "S2", "name": "林岚", "aliases": ["林岚", "林工"] },
+    { "code": "S3", "name": "周珩", "aliases": ["周珩", "小周"] }
+  ],
+  "segments": [
+    {
+      "segment_id": "SEG-001",
+      "key_points": [
+        {
+          "text": "今天先对齐社区共建的协作方式，会议日期回头再补，先按相对时间记录",
+          "segment_ids": ["SEG-001"]
+        }
+      ],
+      "decisions": [],
+      "action_items": [],
+      "resource_leads": [],
+      "open_questions": []
+    },
+    {
+      "segment_id": "SEG-002",
+      "key_points": [],
+      "decisions": [],
+      "action_items": [],
+      "resource_leads": [
+        {
+          "direction": "supply",
+          "description": "社区供给志愿者名单",
+          "speaker_code": "S2",
+          "evidence_quote": "我们社区这边可以供给志愿者名单",
+          "segment_ids": ["SEG-002"]
+        },
+        {
+          "direction": "demand",
+          "description": "产品侧提供一套介绍材料",
+          "speaker_code": "S2",
+          "evidence_quote": "需求是希望产品侧给一套介绍材料",
+          "segment_ids": ["SEG-002"]
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "segment_id": "SEG-003",
+      "key_points": [],
+      "decisions": [],
+      "action_items": [
+        {
+          "task": "把介绍材料初稿给社区",
+          "owner_code": "S3",
+          "due": "TBD",
+          "due_raw": "下周",
+          "evidence_quote": "我下周把介绍材料初稿给社区",
+          "segment_ids": ["SEG-003"]
+        },
+        {
+          "task": "整理一份协作需求清单",
+          "owner_code": "S3",
+          "due": "TBD",
+          "due_raw": "月底",
+          "evidence_quote": "月底前整理一份协作需求清单",
+          "segment_ids": ["SEG-003"]
+        }
+      ],
+      "resource_leads": [],
+      "open_questions": []
+    },
+    {
+      "segment_id": "SEG-004",
+      "key_points": [
+        {
+          "text": "社区侧提到需要 8,000 美元，先原样记录，不合并不换算",
+          "segment_ids": ["SEG-004"]
+        }
+      ],
+      "decisions": [
+        {
+          "text": "社区活动统一使用共建标识",
+          "segment_ids": ["SEG-004"]
+        }
+      ],
+      "action_items": [],
+      "resource_leads": [],
+      "open_questions": []
+    },
+    {
+      "segment_id": "SEG-005",
+      "key_points": [],
+      "decisions": [],
+      "action_items": [
+        {
+          "task": "安排志愿者培训",
+          "owner_code": "S2",
+          "due": "TBD",
+          "due_raw": "",
+          "evidence_quote": "我们好安排志愿者培训",
+          "segment_ids": ["SEG-005"]
+        }
+      ],
+      "resource_leads": [
+        {
+          "direction": "demand",
+          "description": "介绍材料初稿下周给到",
+          "speaker_code": "S2",
+          "evidence_quote": "介绍材料初稿最好下周给到，我们好安排志愿者培训",
+          "segment_ids": ["SEG-005"]
+        }
+      ],
+      "open_questions": []
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "schema": "ops.meeting.summary/v1",
+  "meeting": {
+    "title": "2026 Q4 渠道政策沟通会",
+    "type": "内部业务会",
+    "date": "2026-11-10",
+    "roles": [
+      "S1 主持人/渠道负责人 陈远",
+      "S2 产品负责人 林岚",
+      "S3 运营 周珩",
+      "S4 数据 赵敏"
+    ]
+  },
+  "key_points": [
+    {
+      "text": "今天主要对齐 Q4 渠道返点政策",
+      "segment_ids": ["SEG-001"]
+    },
+    {
+      "text": "本季度渠道返点总额预算是 50,000 美元，这个数字只是预算口径，不要对外拆分",
+      "segment_ids": ["SEG-001"]
+    }
+  ],
+  "decisions": [
+    {
+      "text": "新渠道接入流程统一走标准化 API，不再单独定制",
+      "segment_ids": ["SEG-002", "SEG-006"]
+    },
+    {
+      "text": "返点结算口径由财务统一",
+      "segment_ids": ["SEG-004"]
+    }
+  ],
+  "action_items": [
+    {
+      "task": "整理渠道名单，下周一（2026-11-16）前发给产品",
+      "owner_code": "S3",
+      "due": "2026-11-16",
+      "due_raw": "下周一（2026-11-16）",
+      "due_status": "EXPLICIT_IN_TEXT",
+      "conversion_note": "",
+      "evidence_quote": "那我负责整理渠道名单，下周一（2026-11-16）前发给产品",
+      "segment_ids": ["SEG-003"]
+    },
+    {
+      "task": "对接返点结算口径",
+      "owner_code": "S2",
+      "due": "2026-11-13",
+      "due_raw": "本周五",
+      "due_status": "RESOLVED_FROM_MEETING_DATE",
+      "conversion_note": "本周五 → 2026-11-13（依据会议日期 2026-11-10）",
+      "evidence_quote": "返点结算口径由财务统一，林岚本周五前对接完成",
+      "segment_ids": ["SEG-004"]
+    },
+    {
+      "task": "列出渠道活跃度报表的具体需求",
+      "owner_code": "S3",
+      "due": "TBD",
+      "due_raw": "",
+      "due_status": "OPEN",
+      "conversion_note": "",
+      "evidence_quote": "周珩如果有具体需求请列出来",
+      "segment_ids": ["SEG-005"]
+    }
+  ],
+  "resource_leads": [
+    {
+      "direction": "demand",
+      "description": "市场部提供区域划分",
+      "speaker_code": "S3",
+      "evidence_quote": "名单里还需要市场部提供区域划分",
+      "segment_ids": ["SEG-003"]
+    },
+    {
+      "direction": "supply",
+      "description": "数据侧供给渠道活跃度报表",
+      "speaker_code": "S4",
+      "evidence_quote": "数据侧可以供给渠道活跃度报表",
+      "segment_ids": ["SEG-005"]
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "是否需要增加渠道培训？这个问题先留着",
+      "segment_ids": ["SEG-004"]
+    }
+  ],
+  "persons_referenced": ["陈远", "林岚", "周珩", "赵敏"],
+  "meta": {
+    "status": "L1_DRAFT",
+    "destination": "REVIEW_QUEUE",
+    "external_send_allowed": false,
+    "amount_policy": "verbatim_no_computation",
+    "segment_count": 6,
+    "notes": [
+      "SEG-002 与 SEG-006 的决策语义重复，已合并并取 segment_ids 并集",
+      "金额 50,000 美元按原文引用，未求和、未换算、未由 AI 计算",
+      "相对表述本周五依据会议日期 2026-11-10 换算为 2026-11-13",
+      "本输出为 L1 草稿，进入复核队列，不得直接外发"
+    ]
+  }
+}
